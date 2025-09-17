@@ -14,8 +14,11 @@
     "react-dom": "latest",
     "lucide-react": "latest"
   },
+  {
   "devDependencies": {
     "@next/mdx": "latest",
+    "@mdx-js/loader": "latest",
+    "@mdx-js/react": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "autoprefixer": "latest",
@@ -23,4 +26,5 @@
     "tailwindcss": "latest",
     "typescript": "latest"
   }
+}
 }
