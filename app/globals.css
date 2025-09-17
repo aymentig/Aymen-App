@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b0c;
+  --text: #f6f6f7;
+  --muted: #b2b2b8;
+  --card: #121216;
+  --border: #24242b;
+}
+
+body { background: var(--bg); color: var(--text); }
+.text-muted { color: var(--muted); }
+.card { @apply rounded-2xl border border-[color:var(--border)] bg-[color:var(--card)] p-6; }
+.btn { @apply rounded-2xl px-4 py-2 font-medium border border-[color:var(--border)]; }
+.btn-primary { @apply bg-gradient-to-r from-fuchsia-500 to-cyan-300 text-black; }
+.btn-ghost { @apply hover:bg-zinc-900; }
+.container { @apply mx-auto max-w-6xl px-4; }
